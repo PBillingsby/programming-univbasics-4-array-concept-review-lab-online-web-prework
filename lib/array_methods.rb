@@ -7,7 +7,7 @@ end
 def find_max_value(array)
   # Add your solution here
   new_arr = array.sort
-  puts new_arr[-1]
+  p new_arr[-1]
 end
 
 def find_min_value(array)
