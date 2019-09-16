@@ -6,10 +6,8 @@ end
 
 def find_max_value(array)
   # Add your solution here
-  counter = array.first
-  array.each do |i| {counter = i if i > counter}
-  end
-  print counter
+  new_arr = array.sort
+  puts new_arr[-1]
 end
 
 def find_min_value(array)
